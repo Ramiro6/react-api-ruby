@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+var = 0
+4.times do
+  var += 1
+  Post.create(title: "Test: #{var}", description: 'askjdhkjsahdjkdasdjhaskjs')
+end
